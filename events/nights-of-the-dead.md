@@ -8,7 +8,15 @@ because they span many expansions. Walkthroughs for some of them also sit in the
 Full inventory with per-quest notes, unknowns and every source: `nights-of-the-dead/inventory.md`.
 Detailed research per quest (dialogue verbatim, coordinates with axis order, item ids and flags, recipes, rewards,
 screenshots, unknowns), one file each in `nights-of-the-dead/`: `carving-pumpkins.md`, `squashing-pumpkins.md`,
-`the-witchs-wishes.md`, `missing-pumpkins.md`, `2006-2007-quests.md`, `2008-quests.md`, `2009-2010-quests.md`.
+`the-witchs-wishes.md`, `missing-pumpkins.md`, `2006-2007-quests.md`, `2008-quests.md`, `2009-2010-quests.md`,
+`haunted-cave.md`, `2005-extra.md` (Trick or Treat, Hungry Halfling, Out With the Old additions, the live item-id
+table, The Rat Bounty), `2006-extra.md` (Toadstool Surprise, Making Candy Apples, Find the Black Cat, Great Zombie
+Attack, Lycanthrope's Cure, Monster Mash), `2007-extra.md` (Toxxulia Pie Fling, Nektulos Ghost Rider),
+`under-your-skin.md`.
+
+**Item ids:** this file and the files in `nights-of-the-dead/` use live ids. The expansion files' `[item=N]` tags are
+Allakhazam's internal ids (e.g. Bristlebane's Ticket of Admission: live 85062, Allakhazam 45441). Mapping:
+`nights-of-the-dead/2005-extra.md` section A.
 
 ### Master table
 
@@ -31,9 +39,9 @@ Legend for "Era": the newest expansion among the zones that version needs, by li
 | 5 | Nights of the Dead: Out With the Old | a silly puppet / Cathil, Kithicor (1230, 1060) | Kithicor mission instance ("Nights of the Dead: Kithicor Forest: Out With the Old") | Group monster mission 3-6 | 20-125 | 2005 | Alla 5370 | classic | **yes** |
 | 6 | Nights of the Dead: Bone Mask of Horror | Zigan Ribshard, PoK (-640, 179) | PoK + the five above | Quest (capstone) | 20+ | 2005 | Alla 5371 | PoP | **yes** (needs 4a-4c at cap 65) |
 | 7 | Nights of the Dead: Toadstool Surprise | a wizened hermit, PoK (near main bank) | PoK + Toxxulia Forest (toadstools, /open) | Task, solo | 1-90 | 2006 | Alla 3802 | TSS (Tox 2.0) / classic tox: PoP | **yes** (classic tox) |
-| 8 | Nights of the Dead: Making Candy Apples | Wicked Winnie, PoK (180, 275) | PoK (Haunted Jack, free candy apple) + Steamfont Mtns (Finkel Rardobaen, -1235,-1465) **or** Toxxulia Forest (Quana Rainsparkle, good-aligned only) | Task, solo | 25-90 | 2006 | Alla 3801 | SoF (Steamfont 2.0) / classic steamfont or tox: PoP | **yes** (classic stand-in) |
-| 9 | Nights of the Dead: Find the Black Cat | Syxa Jewlborn, Kithicor (Commonlands zone-in) | Kithicor | Task, solo | 25-125 | 2006 | Alla 3799 | classic | **yes** |
-| 10 | Nights of the Dead: Great Zombie Attack | Crazy Charlie, Kithicor (1815, 3790) | Kithicor + Rathe Mountains (zombie troopers) | Task, solo | 1-125 | 2006 | Alla 3842 | classic | **yes** |
+| 8 | Nights of the Dead: Making Candy Apples | Wicked Winnie, PoK (180, 275) | PoK (Haunted Jack, free candy apple) + Steamfont Mtns (Finkel Rardobaen, -1235,-1465) **or** Toxxulia Forest (Quana Rainsparkle, good-aligned only) | Task, solo, ~3h repeat timer (2006-extra.md) | 25-90 | 2006 | Alla 3801 | SoF (Steamfont 2.0) / classic steamfont or tox: PoP | **yes** (classic stand-in) |
+| 9 | Nights of the Dead: Find the Black Cat | Syxa Jewlborn, Kithicor (Commonlands zone-in) | Kithicor | Task, solo, 3h lockout (2006-extra.md) | 25-125 | 2006 | Alla 3799 | classic | **yes** |
+| 10 | Nights of the Dead: Great Zombie Attack | Crazy Charlie, Kithicor (1815, 3790) | Kithicor + Rathe Mountains (zombie troopers); ends on the 10th zombie, no return (2006-extra.md) | Task, solo | 1-125 | 2006 | Alla 3842 | classic | **yes** |
 | 11 | Nights of the Dead: Lycanthrope's Cure | Laryen Lycanthrope, Rivervale (-185, -260) | Rivervale + Kithicor (5 fallen werewolves) | Task, solo | 30-125 | 2006 | Alla 3823 | classic | **yes** |
 | 12 | Nights of the Dead: Monster Mash | Lurgh, Kithicor (Rivervale zone-in) | Kithicor (skeleton parts at night) | Task, solo | 35-90 | 2006 | Alla 3800 | classic | **yes** |
 | 13 | Nights of the Dead: Skeleton Zapping | any "<name> the Bonecollector" in a home city (list below) | start city + any zone with qualifying skeletons; confirmed working: Butcherblock (enraged dwarf skeleton), Field of Bone/Kurn's (undead farmer), Crescent Reach, Blightfire Moors | Task, solo | 10-125 | 2006 | Alla 3803 | mixed; a classic city + Butcherblock is all classic | **yes** (classic Bonecollectors + Butcherblock / Field of Bone); the Crescent Reach Bonecollector and CR/Moors skeletons are TSS |
@@ -63,7 +71,7 @@ Legend for "Era": the newest expansion among the zones that version needs, by li
 | 25g | same [66] | same | PoK + The Steppes | | 60-70 | 2010 | Alla 5372 | **TSS** | **no** |
 | 25h | same [76] | same | PoK + Loping Plains | | 70-80 | 2010 | Alla 5372 | **SoF** | **no** |
 | 25i | same [81+] | same | PoK + Field of Scale | | 80+ | 2010 | Alla 5372 | **SoD** | **no** |
-| 26 | Nights of the Dead: Under Your Skin | Rhaeda Evel, PoK (~300, 350); flag = any Terror of Illis Taberish | PoK + Snarlstone Dens instance | Group task 3-6, 17.5h lockout | 85-125 | 2010 | Alla 5373 | **DoD** | **no** (Snarlstone Dens) |
+| 26 | Nights of the Dead: Under Your Skin | Rhaeda Evel, PoK (/loc 300, 322 - see under-your-skin.md); flag = any Terror of Illis Taberish | PoK + Snarlstone Dens instance | Group task 3-6, 17.5h lockout | 85-125 | 2010 | Alla 5373 | **DoD** | **no** (Snarlstone Dens) |
 | 27 | Nights of the Dead: The Witch's Wishes | Cikdew, South Karana (under the north bridge) | South Karana, Erudin (palace entrance), The Feerrott (Mugu outside Oggok), Shadowrest, PoK (Scholar Klaz, Chef Denrun, Devin Traical); spider legs from any spider | Task, solo | 1-130 | 2021 | Alla 9223; EQR thewitchswishes.php | PoP (PoK) | **yes** |
 | 28 | Missing Pumpkins | Arlien Browch, The Commonlands (Commonlands tunnel) | Commonlands, Nektulos, Kithicor, Misty Thicket, Everfrost, West Karana (Minda and Tukk's farm), The Feerrott | Task, solo | not stated | 2021 | EQR missingpumpkins.php (no Alla quest page found) | TSS (Commonlands, Misty 2.0) / classic stand-ins | **yes** (classic commons/ecommons + misty) |
 | 29 | Carving Pumpkins | Hule C. Zarshcl, West Karana (-3715, -7665) | West Karana | Task, solo | not stated | 2021 | EQR carvingpumpkins.php | classic | **yes** |
@@ -165,17 +173,17 @@ of here and don't come back until you have a good costume!'
 In costume:
 Zigan Ribshard says 'This mask is one of my finer creations. Use it well and go scare some rotten elf kid.'
 
-Reward by level (live item ids):
+Reward by level (live item id; Allakhazam's internal id in brackets - see `nights-of-the-dead/2005-extra.md` section A):
 
 | Level | Reward |
 | --- | --- |
-| under 10 | Dusty Bone Mask of Horror (45520) |
-| 10-20 | Cracked Bone Mask of Horror (45519) |
-| 20-30 | Hardened Bone Mask of Horror (45521) |
-| 30-40 | Strengthened Bone Mask of Horror (45523) |
-| 40-50 | Calcified Bone Mask of Horror (45518) |
-| 50-60 | Solid Bone Mask of Horror (45522) |
-| over 60 | Bone Mask of Horror (45517) |
+| under 10 | Dusty Bone Mask of Horror (90046) [Alla 45520] |
+| 10-20 | Cracked Bone Mask of Horror (90045) [Alla 45519] |
+| 20-30 | Hardened Bone Mask of Horror (90044) [Alla 45521] |
+| 30-40 | Strengthened Bone Mask of Horror (90043) [Alla 45523] |
+| 40-50 | Calcified Bone Mask of Horror (90042) [Alla 45518] |
+| 50-60 | Solid Bone Mask of Horror (90041) [Alla 45522] |
+| over 60 | Bone Mask of Horror (90040) [Alla 45517] |
 
 Bone Mask of Horror (top tier): FACE, AC 15, STR 15, DEX 5, STA 10, WIS 15, INT 15, AGI 5, HP/Mana/End 135, saves Fire 5,
 Disease 10, Cold 5, Magic 15, Poison 5. Effect: Illusion: Frost Bone. Lore, No Trade.
@@ -238,8 +246,8 @@ Players take one of six god templates: Terris Thule (enchanter), Tunare (druid),
 Waves: (1) a fragment of spite + 16 lost creatures of the void; (2) a shard of hate + 12 figments of malice; (3) a shard of
 nothingness + 9 creatures of despair, then a sliver of despondency + 9 fragments of malice, then The Legion Commander of
 the Void + 9 wandering souls of the void. Killing the Legion Commander wins; loot the shield from the chest.
-Rewards by level: Chipped (63750), Cracked (63751), Fractured (63752), Lesser (46174), Splintered (58571), Split (63754)
-Shield of the Void, Shield of the Void (46176), Shield of the Void [artifact] (46195); Spell: Illusion: Frost Bone (61079).
+Rewards by level (live ids; Allakhazam ids in brackets): Chipped 90035 [63750], Cracked 90036 [63751], Fractured 90038 [63752], Lesser 90034 [46174], Splintered 90039 [58571], Split 90037 [63754]
+Shield of the Void, Shield of the Void 90033 [46176], Shield of the Void (artifact) 36116 [46195]; Spell: Illusion: Frost Bone 90047 [61079].
 
 ---
 
@@ -249,7 +257,7 @@ Full dialogue and steps: `expansions/01-ruins-of-kunark.md`. Barsin stands at -1
 the lake in the south-east). Group task, 3-6 players, success lockout 6 hours. After the delivery Barsin examines the
 bones; a bone construct spawns and attacks, and killing it completes the task.
 
-| Version | Bones | Possible rewards (plus Bristlebane's Ticket of Admission 45441 and experience) |
+| Version | Bones | Possible rewards (plus Bristlebane's Ticket of Admission 85062 [Alla 45441] and experience) |
 | --- | --- | --- |
 | 20 | 4 Bone Chips (Befallen), 2 Warbone Chips (Estate of Unrest), 4 Bone Chips (Kurn's Tower) | Carved Bone Totem |
 | 41 | 4 Bone Chips (Tower of Frozen Shadow), 2 bone chips from plaguebone skeletons (any zone), 2 Iced Bone Chips (Lower Guk) | Engraved Bone Earring |

@@ -92,9 +92,9 @@ Legend for "Era": the newest expansion among the zones that version needs, by li
 | 5 | Nights of the Dead: Out With the Old | a silly puppet / Cathil, Kithicor (1230, 1060) | Kithicor mission instance ("Nights of the Dead: Kithicor Forest: Out With the Old") | Group monster mission 3-6 | 20-125 | 2005 | Alla 5370 | classic | **yes** |
 | 6 | Nights of the Dead: Bone Mask of Horror | Zigan Ribshard, PoK (-640, 179) | PoK + the five above | Quest (capstone) | 20+ | 2005 | Alla 5371 | PoP | **yes** (needs 4a-4c at cap 65) |
 | 7 | Nights of the Dead: Toadstool Surprise | a wizened hermit, PoK (near main bank) | PoK + Toxxulia Forest (toadstools, /open) | Task, solo | 1-90 | 2006 | Alla 3802 | TSS (Tox 2.0) / classic tox: PoP | **yes** (classic tox) |
-| 8 | Nights of the Dead: Making Candy Apples | Wicked Winnie, PoK (180, 275) | PoK (Haunted Jack, free candy apple) + Steamfont Mtns (Finkel Rardobaen, -1235,-1465) **or** Toxxulia Forest (Quana Rainsparkle, good-aligned only) | Task, solo | 25-90 | 2006 | Alla 3801 | SoF (Steamfont 2.0) / classic steamfont or tox: PoP | **yes** (classic stand-in) |
-| 9 | Nights of the Dead: Find the Black Cat | Syxa Jewlborn, Kithicor (Commonlands zone-in) | Kithicor | Task, solo | 25-125 | 2006 | Alla 3799 | classic | **yes** |
-| 10 | Nights of the Dead: Great Zombie Attack | Crazy Charlie, Kithicor (1815, 3790) | Kithicor + Rathe Mountains (zombie troopers) | Task, solo | 1-125 | 2006 | Alla 3842 | classic | **yes** |
+| 8 | Nights of the Dead: Making Candy Apples | Wicked Winnie, PoK (180, 275) | PoK (Haunted Jack, free candy apple) + Steamfont Mtns (Finkel Rardobaen, -1235,-1465) **or** Toxxulia Forest (Quana Rainsparkle, good-aligned only) | Task, solo, ~3h repeat timer (2006-extra.md) | 25-90 | 2006 | Alla 3801 | SoF (Steamfont 2.0) / classic steamfont or tox: PoP | **yes** (classic stand-in) |
+| 9 | Nights of the Dead: Find the Black Cat | Syxa Jewlborn, Kithicor (Commonlands zone-in) | Kithicor | Task, solo, 3h lockout (2006-extra.md) | 25-125 | 2006 | Alla 3799 | classic | **yes** |
+| 10 | Nights of the Dead: Great Zombie Attack | Crazy Charlie, Kithicor (1815, 3790) | Kithicor + Rathe Mountains (zombie troopers); ends on the 10th zombie, no return (2006-extra.md) | Task, solo | 1-125 | 2006 | Alla 3842 | classic | **yes** |
 | 11 | Nights of the Dead: Lycanthrope's Cure | Laryen Lycanthrope, Rivervale (-185, -260) | Rivervale + Kithicor (5 fallen werewolves) | Task, solo | 30-125 | 2006 | Alla 3823 | classic | **yes** |
 | 12 | Nights of the Dead: Monster Mash | Lurgh, Kithicor (Rivervale zone-in) | Kithicor (skeleton parts at night) | Task, solo | 35-90 | 2006 | Alla 3800 | classic | **yes** |
 | 13 | Nights of the Dead: Skeleton Zapping | any "<name> the Bonecollector" in a home city (list below) | start city + any zone with qualifying skeletons; confirmed working: Butcherblock (enraged dwarf skeleton), Field of Bone/Kurn's (undead farmer), Crescent Reach, Blightfire Moors | Task, solo | 10-125 | 2006 | Alla 3803 | mixed; a classic city + Butcherblock is all classic | **yes** (classic Bonecollectors + Butcherblock / Field of Bone); the Crescent Reach Bonecollector and CR/Moors skeletons are TSS |
@@ -124,7 +124,7 @@ Legend for "Era": the newest expansion among the zones that version needs, by li
 | 25g | same [66] | same | PoK + The Steppes | | 60-70 | 2010 | Alla 5372 | **TSS** | **no** |
 | 25h | same [76] | same | PoK + Loping Plains | | 70-80 | 2010 | Alla 5372 | **SoF** | **no** |
 | 25i | same [81+] | same | PoK + Field of Scale | | 80+ | 2010 | Alla 5372 | **SoD** | **no** |
-| 26 | Nights of the Dead: Under Your Skin | Rhaeda Evel, PoK (~300, 350); flag = any Terror of Illis Taberish | PoK + Snarlstone Dens instance | Group task 3-6, 17.5h lockout | 85-125 | 2010 | Alla 5373 | **DoD** | **no** (Snarlstone Dens) |
+| 26 | Nights of the Dead: Under Your Skin | Rhaeda Evel, PoK (/loc 300, 322 - see under-your-skin.md); flag = any Terror of Illis Taberish | PoK + Snarlstone Dens instance | Group task 3-6, 17.5h lockout | 85-125 | 2010 | Alla 5373 | **DoD** | **no** (Snarlstone Dens) |
 | 27 | Nights of the Dead: The Witch's Wishes | Cikdew, South Karana (under the north bridge) | South Karana, Erudin (palace entrance), The Feerrott (Mugu outside Oggok), Shadowrest, PoK (Scholar Klaz, Chef Denrun, Devin Traical); spider legs from any spider | Task, solo | 1-130 | 2021 | Alla 9223; EQR thewitchswishes.php | PoP (PoK) | **yes** |
 | 28 | Missing Pumpkins | Arlien Browch, The Commonlands (Commonlands tunnel) | Commonlands, Nektulos, Kithicor, Misty Thicket, Everfrost, West Karana (Minda and Tukk's farm), The Feerrott | Task, solo | not stated | 2021 | EQR missingpumpkins.php (no Alla quest page found) | TSS (Commonlands, Misty 2.0) / classic stand-ins | **yes** (classic commons/ecommons + misty) |
 | 29 | Carving Pumpkins | Hule C. Zarshcl, West Karana (-3715, -7665) | West Karana | Task, solo | not stated | 2021 | EQR carvingpumpkins.php | classic | **yes** |
@@ -286,3 +286,11 @@ reports no other versions. Remove the Troublesome Trick-Or-Treaters is a House o
 - https://github.com/nazwadi/patcheq (patches-1999 .. patches-2022-1)
 - Local: C:\Git\test\EQQuests\events\nights-of-the-dead.md; EQQuests\expansions\01-ruins-of-kunark.md (8687, 12417,
   15596, 16274, 16370); 03-shadows-of-luclin.md (11502); peq `zone` table (read-only SELECT via peq_sql.py)
+
+## Corrections from the 2026-10-05 follow-up research
+See `2005-extra.md`, `2006-extra.md`, `2007-extra.md` and `under-your-skin.md` (each lists its sources). In short:
+- Item ids: several ids labelled live in earlier notes were Allakhazam's internal ids; live ids are in `2005-extra.md` section A.
+- Nektulos Ghost Rider's checkpoints and Grom fit the rebuilt Nektulos (peq version 1), and the Toadstool Surprise spawn points fit the rebuilt Toxxulia, not the classic zones.
+- Sergeant Ragus patrols East Commonlands (Bonzz); his own treat line is "Here you go. Be careful not to make yourself sick." (Allakhazam 2012 comment).
+- Under Your Skin is 2010 (official news Oct 22, 2010); Toadstool hermit level: Allakhazam 30, Bonzz 50.
+- The Rat Bounty (#Roosevelt, PoK) has no live source: it is a ProjectEQ custom event (task 500222, the "Rattus Norvegicus" hunt).
