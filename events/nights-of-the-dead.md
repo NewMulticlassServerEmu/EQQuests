@@ -3,7 +3,117 @@
 Live EverQuest's yearly Halloween event (October to early November). The quests are filed by event here, not by expansion,
 because they span many expansions. Walkthroughs for some of them also sit in the expansion files (noted per quest).
 
-## All known Nights of the Dead quests
+## All live Nights of the Dead quests (inventory 2026-10-05: 38 quests, eras per version)
+
+Full inventory with per-quest notes, unknowns and every source: `nights-of-the-dead/inventory.md`.
+Detailed research per quest (dialogue verbatim, coordinates with axis order, item ids and flags, recipes, rewards,
+screenshots, unknowns), one file each in `nights-of-the-dead/`: `carving-pumpkins.md`, `squashing-pumpkins.md`,
+`the-witchs-wishes.md`, `missing-pumpkins.md`, `2006-2007-quests.md`, `2008-quests.md`, `2009-2010-quests.md`.
+
+### Master table
+
+Legend for "Era": the newest expansion among the zones that version needs, by live zone, then by classic stand-in
+(note A) when they differ. **GoD?** = GoD-or-lower by the classic stand-in.
+
+| # | Quest (exact name) | Start NPC, zone | All zones needed (per version) | Type | Levels | Year | Source | Era | GoD? |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Nights of the Dead: Trick or Treat for the Old Man | Old Man Draykey, Kithicor Forest (1915, 4535) | Kithicor, Estate of Unrest, PoK, Commonlands, Field of Bone, Iceclad Ocean, Toxxulia Forest, Castle Mistmoore, Netherbian Lair, West Karana, Befallen | Quest, solo | 10-90 | 2005 | Alla quest=3254 | Luclin (Netherbian) / PoP (PoK) | **yes** |
+| 2 | Nights of the Dead: The Hungry Halfling | Mippie Diggs, Kithicor (near Rivervale line) | Kithicor; pumpkin flesh from scarecrows in Estate of Unrest; rest bought from merchants | Task, solo (baking/brewing) | 10-125 | 2005 | Alla 4665 | classic | **yes** |
+| 3a | Nights of the Dead: Missing Costume Pieces [30] | a Dressed-Up halfling, Kithicor (1090, -570) | Kithicor + Castle Mistmoore | Shared task 1-6 | 20+ | 2005 | Alla 4898 | classic | **yes** |
+| 3b | same [40] | same | Kithicor + Tenebrous Mountains | shared | | 2005 | Alla 4898 | Luclin | **yes** |
+| 3c | same [53] | same | Kithicor + Katta Castellum | shared | | 2005 | Alla 4898 | Luclin | **yes** |
+| 3d | same [58] | same | Kithicor + The Maiden's Eye | shared | | 2005 | Alla 4898 | Luclin | **yes** |
+| 3e | same [66+] | same | Kithicor + Plane of Hate (old, Innoruuk's room) | shared | | 2005 | Alla 4898 | classic | **yes** |
+| 4a | Nights of the Dead: The Bone Collector [20] | Barsin, the Bone Collector, Kithicor (-110, 25) | Kithicor + Befallen, Estate of Unrest, Kurn's Tower | Group task 3-6 | 10+ | 2005 | Alla 5369 | Kunark | **yes** |
+| 4b | same [41] | same | Kithicor + Tower of Frozen Shadow, Lower Guk, plaguebone skeletons ("any zone") | group | | 2005 | Alla 5369 | Velious | **yes** |
+| 4c | same [60] | same | Kithicor + Plane of Hate, Ruins of Sebilis, Dragon Necropolis | group | | 2005 | Alla 5369 | Velious | **yes** |
+| 4d | same [69+] | same | Kithicor + **Wall of Slaughter**, Plane of Nightmare, Dragon Necropolis | group | 69+ | 2005 | Alla 5369 | **OoW** | **no** (Wall of Slaughter) |
+| 5 | Nights of the Dead: Out With the Old | a silly puppet / Cathil, Kithicor (1230, 1060) | Kithicor mission instance ("Nights of the Dead: Kithicor Forest: Out With the Old") | Group monster mission 3-6 | 20-125 | 2005 | Alla 5370 | classic | **yes** |
+| 6 | Nights of the Dead: Bone Mask of Horror | Zigan Ribshard, PoK (-640, 179) | PoK + the five above | Quest (capstone) | 20+ | 2005 | Alla 5371 | PoP | **yes** (needs 4a-4c at cap 65) |
+| 7 | Nights of the Dead: Toadstool Surprise | a wizened hermit, PoK (near main bank) | PoK + Toxxulia Forest (toadstools, /open) | Task, solo | 1-90 | 2006 | Alla 3802 | TSS (Tox 2.0) / classic tox: PoP | **yes** (classic tox) |
+| 8 | Nights of the Dead: Making Candy Apples | Wicked Winnie, PoK (180, 275) | PoK (Haunted Jack, free candy apple) + Steamfont Mtns (Finkel Rardobaen, -1235,-1465) **or** Toxxulia Forest (Quana Rainsparkle, good-aligned only) | Task, solo | 25-90 | 2006 | Alla 3801 | SoF (Steamfont 2.0) / classic steamfont or tox: PoP | **yes** (classic stand-in) |
+| 9 | Nights of the Dead: Find the Black Cat | Syxa Jewlborn, Kithicor (Commonlands zone-in) | Kithicor | Task, solo | 25-125 | 2006 | Alla 3799 | classic | **yes** |
+| 10 | Nights of the Dead: Great Zombie Attack | Crazy Charlie, Kithicor (1815, 3790) | Kithicor + Rathe Mountains (zombie troopers) | Task, solo | 1-125 | 2006 | Alla 3842 | classic | **yes** |
+| 11 | Nights of the Dead: Lycanthrope's Cure | Laryen Lycanthrope, Rivervale (-185, -260) | Rivervale + Kithicor (5 fallen werewolves) | Task, solo | 30-125 | 2006 | Alla 3823 | classic | **yes** |
+| 12 | Nights of the Dead: Monster Mash | Lurgh, Kithicor (Rivervale zone-in) | Kithicor (skeleton parts at night) | Task, solo | 35-90 | 2006 | Alla 3800 | classic | **yes** |
+| 13 | Nights of the Dead: Skeleton Zapping | any "<name> the Bonecollector" in a home city (list below) | start city + any zone with qualifying skeletons; confirmed working: Butcherblock (enraged dwarf skeleton), Field of Bone/Kurn's (undead farmer), Crescent Reach, Blightfire Moors | Task, solo | 10-125 | 2006 | Alla 3803 | mixed; a classic city + Butcherblock is all classic | **yes** (classic Bonecollectors + Butcherblock / Field of Bone); the Crescent Reach Bonecollector and CR/Moors skeletons are TSS |
+| 14 | Nights of the Dead: Aragol's Seance | Aragol Gloomflow, Crescent Reach (Nokk cave) | Crescent Reach | Task, solo | 15-125 | 2006 (Alla page says 2007) | Alla 4623 | **TSS** | **no** (Crescent Reach) |
+| 15 | Nights of the Dead: Haunted Cave | Jilian Florantine, Crescent Reach (314, -2119) | Crescent Reach (Nokk undead cave) | Task, solo | 20-90 | 2006 or 2009 (conflict) | Alla 4904 | **TSS** | **no** (Crescent Reach) |
+| 16 | Nights of the Dead: Toxxulia Pie Fling | Marta Stalwart, Toxxulia (1987, -739, S of Erudin line) | Toxxulia Forest | Task, solo | 2-90 | 2007 | Alla 4319 | TSS (Tox 2.0) / classic tox | **yes** (classic tox) |
+| 17 | Nights of the Dead: Troublemakers in Faydark | Silas Lightweaver, Greater Faydark (490, 395) | Greater Faydark (catch) + Lesser Faydark (release) | Task, solo | 1-90 | 2007 | Alla 4318 | classic | **yes** |
+| 18 | Nights of the Dead: Nektulos Ghost Rider | Grom Shives, Nektulos (-1915, 1200) | Nektulos Forest (10 checkpoints in 4 min on the Abyssal Steed it hands you) | Task, solo | 1-125 | 2007 | Alla 4317 | classic | **yes** |
+| 19 | Nights of the Dead: Undead Rising | Corporal Gravlin, Qeynos Hills (-66, 60) | Qeynos Hills + Surefall Glade (escort) | Task, solo | 15-90 | 2007 (Alla page says 2009) | Alla 5068 | classic | **yes** |
+| 20 | Nights of the Dead: Rongol #1 - Carry the Torch | Rongol, West Karana (-3695, -9280) | West Karana (torches from Innkeep Danin) | Task, solo | 1-125 | 2008 | Alla 4901 | classic | **yes** |
+| 21 | Nights of the Dead: Rongol #2 - Scarecrow Roundup | Rongol, West Karana | West Karana | Task, solo, 18h lockout | 1-125 | 2008 (Alla page says 2009) | Alla 4902 | classic | **yes** |
+| 22 | Nights of the Dead: Necromancer's Garden | Leavalin Mossbite, Greater Faydark (-1115, -1930) | Greater Faydark | Shared task 1-6, 10-min limit | **70**-125 (Alla) / 11 (Alla wiki) | 2008 (Alla page says 2007) | Alla 4903 | classic | **yes** zone-wise; min level 70 is above our 65 cap (see notes) |
+| 23 | Nights of the Dead: Digging Their Graves [1-22] | Edmund Strangeways, PoK (650, 185) | PoK + Nektulos Forest **or** Lake of Ill Omen | Task, solo, 18h lockout | 1-22 | 2009 | Alla 4899 | Kunark | **yes** |
+| 23b | same [23-32] | same | PoK + Emerald Jungle or Firiona Vie | | ~23-32 | 2009 | Alla 4899 | Kunark | **yes** |
+| 23c | same [~45] | same | PoK + Goru`kar Mesa **or** Emerald Jungle | | ~45 | 2009 | Alla 4899 | Kunark via EJ (Mesa = TSS) | **yes** only if the EJ option is used |
+| 23d | same [~55] | same | PoK + Barren Coast or Goru`kar Mesa | | ~55 | 2009 | Alla 4899 | **TBS/TSS** | **no** (Barren Coast, Mesa) |
+| 23e | same [~65] | same | PoK + The Steppes or The Buried Sea | | ~65 | 2009 | Alla 4899 | **TSS/TBS** | **no** |
+| 23f | same [~75] | same | PoK + Loping Plains or The Steppes | | ~75 | 2009 | Alla 4899 | **SoF/TSS** | **no** |
+| 23g | same [85] | same | PoK + Field of Scale or Loping Plains | | 85 | 2009 | Alla 4899 | **SoD/SoF** | **no** |
+| 24 | Nights of the Dead: The Hunt for Tattooed Flesh | auto-assigned after the first Digging Their Graves; Edmund Strangeways, PoK | PoK (5 inspections) + whatever Digging Their Graves version you run | Task (grand task), solo | 1-125 | 2009 | Alla 4900 | follows #23 | **yes** for chars on 23a-23c |
+| 25a | Nights of the Dead: Terror of Illis Taberish [6] | Illis Taberish, PoK (~300, 350) | PoK + Nektulos Forest | Shared task 1-3, 18h lockout | 1-10 | 2010 | Alla 5372 | classic / Kunark flag | **yes** |
+| 25b | same [16] | same | PoK + Lake of Ill Omen | | 10-20 | 2010 | Alla 5372 | Kunark | **yes** |
+| 25c | same [26] | same | PoK + Firiona Vie | | 20-30 | 2010 | Alla 5372 | Kunark | **yes** |
+| 25d | same [36] | same | PoK + Emerald Jungle | | 30-40 | 2010 | Alla 5372 | Kunark | **yes** |
+| 25e | same [46] | same | PoK + Goru`kar Mesa | | 40-50 | 2010 | Alla 5372 | **TSS** | **no** (Mesa) |
+| 25f | same [56] | same | PoK + Barren Coast | | 50-60 | 2010 | Alla 5372 | **TBS** | **no** |
+| 25g | same [66] | same | PoK + The Steppes | | 60-70 | 2010 | Alla 5372 | **TSS** | **no** |
+| 25h | same [76] | same | PoK + Loping Plains | | 70-80 | 2010 | Alla 5372 | **SoF** | **no** |
+| 25i | same [81+] | same | PoK + Field of Scale | | 80+ | 2010 | Alla 5372 | **SoD** | **no** |
+| 26 | Nights of the Dead: Under Your Skin | Rhaeda Evel, PoK (~300, 350); flag = any Terror of Illis Taberish | PoK + Snarlstone Dens instance | Group task 3-6, 17.5h lockout | 85-125 | 2010 | Alla 5373 | **DoD** | **no** (Snarlstone Dens) |
+| 27 | Nights of the Dead: The Witch's Wishes | Cikdew, South Karana (under the north bridge) | South Karana, Erudin (palace entrance), The Feerrott (Mugu outside Oggok), Shadowrest, PoK (Scholar Klaz, Chef Denrun, Devin Traical); spider legs from any spider | Task, solo | 1-130 | 2021 | Alla 9223; EQR thewitchswishes.php | PoP (PoK) | **yes** |
+| 28 | Missing Pumpkins | Arlien Browch, The Commonlands (Commonlands tunnel) | Commonlands, Nektulos, Kithicor, Misty Thicket, Everfrost, West Karana (Minda and Tukk's farm), The Feerrott | Task, solo | not stated | 2021 | EQR missingpumpkins.php (no Alla quest page found) | TSS (Commonlands, Misty 2.0) / classic stand-ins | **yes** (classic commons/ecommons + misty) |
+| 29 | Carving Pumpkins | Hule C. Zarshcl, West Karana (-3715, -7665) | West Karana | Task, solo | not stated | 2021 | EQR carvingpumpkins.php | classic | **yes** |
+| 30 | Squashing Pumpkins | Levy Cullpay, West Karana (-3140, -4445) | West Karana (needs the Carving Pumpkins knife/kit) | Task, solo | not stated | 2021 | EQR squashingpumpkins.php | classic | **yes** |
+| 31a | Nights of the Dead: The Rot Within [65] | Tully Alford, Blightfire Moors (-132, 610) | Blightfire Moors | Task, solo, 5h | ~25-? (a level 25 got it) | 2022 | Alla 11150 comments (Gary168) | **TSS** | **no** (Blightfire Moors) |
+| 31b | same [85] | same | Blightfire Moors + Icefall Glacier (mammoths) | | ~68 got it | 2022 | Alla 11150 comments | **TSS** | **no** |
+| 31c | same [106+] | same | Blightfire Moors + Valley of King Xorbb | | 106-125 | 2022 | Alla 11150; EQR therotwithin106.php | **RoF** | **no** |
+| 32 | Nights of the Dead: The Rot's Sporali | Tully Alford, Blightfire Moors | Blightfire Moors | Task, solo, 5h | 25-125 | 2022 | Alla 11151 | **TSS** | **no** |
+| 33 | Nights of the Dead: Lurking Beneath the Rot | Tully Alford, Blightfire Moors | Blightfire Moors | Task, solo, 5h | 1-130 | 2022 | Alla 11158 | **TSS** | **no** |
+| 34 | Nights of the Dead: Big Trouble in Little Mesa | Astyn the Gray, Blightfire Moors (1755, 420) | Blightfire Moors + Goru`kar Mesa: The Troubled Mesa (instance) | Group mission 1-6 (Alla: 3-6), 5h lockout | 120-130 | 2022 | Alla 11140 (+ challenges 11141) | **TSS** (needs 120+) | **no** |
+| 35 | Nights of the Dead: The Lost Handkerchief | Larref, Toxxulia Forest (-357, 1099) | Toxxulia Forest + The Warrens | Task, solo | 1-125 | 2025 | Alla 13375; EQR thelosthandkerchief.php | Velious (classic tox stand-in) | **yes** |
+| 36a | Nights of the Dead: Did You Hear That? (low version) | Efferri, Toxxulia Forest (-346, 1089) | Toxxulia + The Warrens | Task, solo | seen at 11-13 | 2025 | Alla 13377 comments (SCindyee) | Velious | **yes** |
+| 36b | same (mid version) | same | Toxxulia + Ruins of Old Paineel (= The Hole) | | seen at 54 | 2025 | Alla 13377 comments | classic | **yes** |
+| 36c | same (Underquarry version) | same | Toxxulia + The Underquarry | | higher (exact band unknown) | 2025 | Alla 13377; EQR didyouhearthat.php | **UF** | **no** (Underquarry) |
+| 37 | Nights of the Dead: Wash It Keener | Sharden, Toxxulia Forest (-365, 1092) | The Buried Sea (3 tide pools) + Toxxulia (fire) | Task, solo | 1-125 (no versions reported) | 2025 | Alla 13376; EQR washitkeener.php | **TBS** | **no** (Buried Sea) |
+| 38 | Nights of the Dead: Remove the Troublesome Trick-Or-Treaters | Reeks, Toxxulia Forest (-480, 1063) | House of Thule instance | Group mission 1-6, 3h (Alla) / 6h (EQR) lockout | 1-125 | 2025 | Alla 13378; EQR removethetroublesometrickortreaters.php | **HoT** | **no** (House of Thule) |
+
+### Historic / GM-run Halloween content (no player-startable quest)
+
+| Item | Year | Zone | What it was | Source | Era |
+| --- | --- | --- | --- | --- | --- |
+| Battle of Bloody Kithicor / PoH opening | Oct 31, 1999 | Kithicor Forest, High Hold Pass, Plane of Hate | GM event. Afterwards Kithicor gets level 35+ undead at night, which is permanent zone content, not a quest | patch note 1999-11-03; Fanra/forum results | classic |
+| GM weekend events: "Scavenger Hunts, Attack of the Pixies, Brownies seeking revenge, a shipwrecked gnome, a bear named Fluffy on a rampage" | Oct 26, 2001 | various, not named | GM-hosted, one-off | Allakhazam story=297 | n/a |
+| The Dragon Ring (Ithiosar the Fallen, then Ithiosar the Black + black ravengers) | Oct 2002 | Swamp of No Hope (caves toward Trakanon's Teeth) | GM-triggered scripted spawn; Fury belts/crowns/rings drop. Allakhazam keeps it as a removed quest | Alla quest=2138; local 01-ruins-of-kunark.md:8687 | Kunark |
+| The Haunting of Kithicor | Oct 2-29, 2012 | Kithicor Forest | Guides/Community Team event | everquest.com/news/imported-eq-enus-524379 | n/a |
+| Haunted Jack (free candy) and Spooky Sally (free costumes/illusions) | 2006+ | every hometown + PoK | merchants, not quests (Haunted Jack also supplies the candy apple for #8) | patch 2006-10-30, 2015 | classic/PoP |
+
+### Achievements / collections / other (not quests, listed for completeness)
+
+- Achievements: Pernicious Puppets (8830: #1-#5), The Monster Mash (8832: all of #7-#15 = Toadstool, Aragol,
+  Candy Apples, Black Cat, Skeleton Zapping, Haunted Cave, Great Zombie, Lycanthrope, Monster Mash),
+  Undead Rising (8833: #16-#19), Garden Variety Ghouls (8834: #20, #21, #22, #27), Strange Ways (8835: #24),
+  Altered Beasts (8836: any Terror version + Under Your Skin), Magnificent Winter Squash (10521: #28-#30),
+  Investing the Infesting (11139: #31c, #32, #33), Big Trouble in Little Mesa (11140) + Mission Challenges (11141),
+  Tales of Tragedy (13372: #35-#37), Remove the Troublesome Trick-Or-Treaters (13373), Hero's Forge - Nights of the
+  Dead Hats (6845, 2012: own 5 hat ornaments).
+  Note: on a GoD-only server, The Monster Mash cannot be finished (Aragol's Seance and Haunted Cave are in Crescent
+  Reach, TSS), and neither can Altered Beasts (Under Your Skin is in Snarlstone Dens, DoD), unless those quests are
+  moved. Garden Variety Ghouls, Pernicious Puppets, Undead Rising, Strange Ways (low versions) and Magnificent Winter
+  Squash are all-GoD.
+- Collections (the RoF2 client probably has no collection UI): Clutch of Fungi (Blightfire Moors, 2022, 11142);
+  Dastardly Discarded Deadly Decorations (Toxxulia Forest, 2025).
+- Overseer: World Nights of the Dead: Quests (11154): Season of Dread, Tricks and Treats, Ways of the Wicked, Bakes and
+  Shakes, Fear Itself, Not Our Festival. These are Overseer quests, not world quests.
+- Marketplace only: 2015 items; 2023 bags; 2024 Sinister Dark furniture, Metamorph: Putrid Rotdog / Menacing Samhain,
+  Visage of a Sarnak Skeleton; 2025 Metamorph: Rotflesh Scavenger / Burrowing Molerat, Visage of the Restless Cadaver.
+
+---
+
+### Earlier short list (kept for the 'Full text' pointers)
 
 | Quest | Starts with | Zone(s) | Type | Added | Full text |
 | --- | --- | --- | --- | --- | --- |
@@ -27,9 +137,6 @@ because they span many expansions. Walkthroughs for some of them also sit in the
 | Did You Hear That? | Efferri | Toxxulia Forest; The Underquarry | Task, solo | 2025 | below |
 | Wash it Keener | Sharden | Toxxulia Forest; The Buried Sea | Task, solo | 2025 | below |
 | Remove the Troublesome Trick-Or-Treaters | Reeks | Toxxulia Forest; House of Thule | Group mission (1-6) | 2025 | below |
-
-Not yet checked for completeness: quests added between 2006 and 2020 other than the ones above. Check Allakhazam before
-treating this list as complete, and add what is missing.
 
 ---
 
