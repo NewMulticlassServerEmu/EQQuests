@@ -149,12 +149,25 @@ bones; a bone construct spawns and attacks, and killing it completes the task.
 | 60 | Ghast Fingerbones (ire ghasts, Plane of Hate), 4 Bone Chips (crypt skeletons, Old Sebilis), a dragon rib (Dragon Necropolis) | Bone-Studded Cloak, Carved Bone Totem, Construct's Blackened Bone Earring (61394), Glowing Skull Pendant |
 | 69+ | Splintered Discordling Bone (rare, Wall of Slaughter), 4 Bone Chips (Plane of Nightmare), dragon skull fragments (ground spawn, Dragon Necropolis tunnels about 1819, 148, -258) | Construct's Blackened Bone Earring |
 
+How the reward works (Allakhazam comments): the "possible rewards" are the bone construct's LOOT, one of the version's
+items ("a bone construct dropped: Carved Bone Totem", "...: Engraved Bone Earring", "...: Construct's Blackened Bone
+Earring"). Barsin gives only the experience and the ticket. Level 10+, repeatable, "Success Lockout Timer: 06:00:00".
+The version follows the group's average level; live never published where one version ends and the next starts.
+
+What the NPCs look like (researched 2026-10-05; Allakhazam screenshots matched to PEQ rows of the same model):
+- **Barsin, the Bone Collector**: a scarecrow (race 82, neuter) - jack-o'-lantern head, blue coat-robe with a red sash,
+  ragged legs; level 50. "he's a scarecrow standing by the lake at loc -101, +9" (Allakhazam npc 31716). Confirmed.
+- **a bone construct**: a skeletal dragon. "a skeletal dragon mob scaled to the level of the group with an ability to FD
+  you... The mob summons" (Allakhazam item 61079); "It is undead (hit for 1K, will feign death you, it is hasted and it
+  cannot be rooted/snared)" (bonzz.com, 69+ version, level 71-72). Race 122 (dragon skeleton) is a likely match, not
+  confirmed by a screenshot. The level-20 version "blue con to lvl 30".
+
 ---
 
 # Nights of the Dead: Missing Costume Pieces - extra details (Allakhazam quest=4898)
 
 Full dialogue and steps: `expansions/03-shadows-of-luclin.md`. The items are the Bloody Vampire Cloak and the Bloody
-Vampire Fangs, looted from a Blood Vampire and returned to the Dressed-Up halfling (1090, -570 in Kithicor Forest).
+Vampire Fangs, looted from the Bloody Vampire and returned to the Dressed-Up halfling (1090, -570 in Kithicor Forest).
 - 53 version: the vampire roams Katta Castellum between the Mausoleum (-700, -1532, 12) and Tsaph Katta Hall (200, 80, 69).
 - 58 version: north-west of The Maiden's Eye near the Dawnshroud Peaks entrance, with about 12 infernal bats.
 - 66+ version: Plane of Hate (old), the room with Innoruuk, with 12-15 bats (hits up to about 235); all mezzable.
@@ -168,6 +181,28 @@ Rewards (each also gives a Bristlebane Ticket of Admission):
 | 53 | Earring of Spectral Essence (63450), Ghoulish Bolster Belt (62176) |
 | 58 | Blood Talon Necklace (60678), Earring of Ghostly Chants (62090) |
 | 66+ | Bloody Vampiric Cloak (61381), Ring of Haunted Visions (46169) |
+
+The task window lists both items, but players report getting ONE of them (one got the Harrowing Black Silk Cape from the
+30 version, another the Ring of Haunted Visions from 66+). Level 20+, repeatable, no lockout listed, 1-6 players.
+Task steps: search for the vampire; recover the cloak; recover the fangs (loot); return the cloak; return the fangs.
+
+The vampire and his bats (researched 2026-10-05):
+- In game he is **"Bloody Vampire"** (log: "Bloody Vampire scowls at you... (Lvl: 45)"); the quest text says Blood Vampire.
+- Levels seen per version: Castle Mistmoore 35, Tenebrous Mountains 45, Katta Castellum 55, The Maiden's Eye 60, Plane of
+  Hate 66 (Allakhazam npc 38043 / 45406 / 41105 / 45405 / 19724). Castle Mistmoore: he roams from the castle entrance to
+  the northern valley.
+- Look: the LDoN vampire (race 360, male, texture 1) - black hooded robe with red lining, purple tunic, pale face
+  (same model as Darion the Blade). Likely, from screenshots.
+- Bats: "an infernal bat" (npc 19725; level 61 in the Plane of Hate). Counts reported: Maiden's Eye about 12, Plane of
+  Hate 12-15 (older posts: 10), Tenebrous "they spawn 5 at a time", Castle Mistmoore 3 ("3 adds MM"). Race probably 34
+  (classic giant bat, angular wings); the one screenshot is dark.
+
+**a Dressed-Up halfling** looks like a vampire, not a halfling: the LDoN undead-vampire model (race 359, male) -
+pale-lavender skin, pointed ears, long white hair, green ragged tunic (same model as a Bloodguard aspirant; Allakhazam
+npc 23816, level 75). Likely.
+
+**Zigan Ribshard** is a goblin (race 433; red skin, loincloth), level 50, male in the 2005 patch notes ("he"). PEQ has
+him as gender 1, which the RoF2 client draws as a human; the client's goblin 433 model is gender 2 only.
 
 ---
 
